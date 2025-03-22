@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://cdn1.ozone.ru/s3/multimedia-p/6265125841.jpg);
+}
+
+.head {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.body {
+    position: relative;
+    left: 119px;
+    top: 70px;
+    z-index: -1;
+}
+
+.foot {
+    position: relative;
+    left: 100px;
+    top: 30px;
+    z-index: -2;
+}
+
+.l_hand{
+    position: relative;
+    left: 300px;
+    top: -350px;
+    z-index: 0; 
+}
+.r_hand{
+    position: relative;
+    left: 60px;
+    top: -480px;
+    z-index: -2;
+}
+
+.hat {
+    position: relative;
+    left: -561px;
+    top: -1700px;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
